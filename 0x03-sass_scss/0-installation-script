@@ -1,0 +1,32 @@
+Steps to install SASS:
+
+1. Navigated to the alx-intermediate-frontend repository:
+   cd path/to/alx-intermediate-frontend
+
+2. Created a new directory named 0x03-sass_scss:
+   mkdir 0x03-sass_scss
+   cd 0x03-sass_scss
+
+3. Installed Node Version Manager (nvm) to manage Node.js versions:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+4. Closed the terminal to apply nvm changes:
+   exit
+
+5. Reopened the terminal and installed Node.js version 24.7:
+   nvm install 24.7
+   nvm use 24.7
+
+6. Verified Node.js installation:
+   node -v
+   Output: v24.7.0
+
+7. Installed SASS version 1.92.1 globally using npm:
+   npm install sass latest version -g
+
+8. Verified SASS installation:
+   sass --version
+   Output: 1.92.2
+
+9. Created this file (0-installation-script) to document the steps:
+   0-installation-script
